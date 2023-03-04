@@ -1,5 +1,5 @@
 # WebScraping
-Web Scraping using Python and BeautifulSoup. 
+Learning web-scraping using Python and BeautifulSoup from freeCodeCamp. Link to tutorial given in the About section of the repository.
 
 #### Install Beautiful Soup:
 ```
