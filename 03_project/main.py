@@ -9,7 +9,7 @@ print(f"Filtering out: {unfamiliar_skill}")
 def find_jobs():
     '''Function that extracts job details and transfers it to a file.'''
 
-    url = 'https://www.timesjobs.com/candidate/job-search.html?searchType=personalizedSearch&from=submit&txtKeywords=python&txtLocation='
+    url = 'insert-URL'
     html_text = requests.get(url).text
     soup = BeautifulSoup(html_text, 'lxml')
     jobs = soup.find_all('li', class_ = 'clearfix job-bx wht-shd-bx')
